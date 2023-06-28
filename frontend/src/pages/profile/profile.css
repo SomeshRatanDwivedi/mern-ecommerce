@@ -1,0 +1,97 @@
+.profile-parent {
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.profile-parent>div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-parent>div:first-child h2 {
+    color: rgb(72, 71, 71);
+    font-size: 30px;
+
+}
+
+.profile-parent>div:first-child img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px 0;
+
+}
+
+.profile-parent>div:first-child button {
+    width: 300px;
+    height: 40px;
+    background-color: tomato;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.profile-parent>div:first-child button:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+.profile-parent>div:last-child {
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+} 
+
+.profile-parent>div:last-child h3{
+    font-weight: 800;
+    color: rgb(62, 62, 62);
+}
+
+.profile-parent>div:last-child p{
+    margin-top: 3px;
+    color: gray;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.profile-parent>div:last-child button {
+    display: block;
+    margin-bottom: 20px;
+    min-width: 300px;
+    width: 50%;
+    height: 40px;
+    background-color: rgb(99, 98, 98);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 700px) {
+    .profile-parent>div:last-child{
+        align-items: center;
+        margin-top: 30px;
+    }
+
+        .profile-parent>div:last-child div{
+            text-align: center;
+            margin-top: 20px;
+        }
+}

@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+
+.no-profile-img{
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+}
+
+.input-error {
+  color: rgb(212, 4, 4);
+  margin: 3px 2px;
+  font-size: 13px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.greenColor{
+  color: green;
+}
+
+.redColor{
+  color: red;
+}
+

@@ -1,0 +1,53 @@
+.payment-parent {
+    padding-top: 20px;
+    min-height: 100vh;
+    min-width: 300px;
+}
+
+
+.payment-data-parent {
+
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 250px);
+}
+
+.payment-data-parent form{
+    width: 400px;
+}
+
+.payment-data-parent h2 {
+    text-align: center;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+
+.payment-form-div {
+    display: flex;
+    border: 2px solid rgb(212, 210, 210);
+    align-items: center;
+    height: 40px;
+    margin-top: 15px;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.card-detail-input{
+    width: 100%;
+    margin-left: 20px;
+}
+
+.payment-data-parent button{
+    width: 100%;
+    margin-top: 15px;
+    height: 40px;
+    background-color: tomato;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}

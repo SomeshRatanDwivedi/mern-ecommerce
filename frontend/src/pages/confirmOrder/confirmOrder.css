@@ -1,0 +1,141 @@
+.confirm-order-parent {
+    padding-top: 20px;
+    min-height: 100vh;
+    min-width: 300px;
+}
+
+.confirm-order-data-parent {
+    display: flex;
+    height: 90%;
+    flex-wrap: wrap;
+}
+
+.confirm-order-left-div {
+    flex: 8;
+    border-right: 1px solid rgb(173, 172, 172);
+    padding: 50px;
+}
+
+.confirm-order-right-div {
+    flex: 4;
+    min-width: 300px
+}
+
+.confirm-order-left-div-upper>div {
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+
+.confirm-order-left-div-upper>div p {
+    margin-top: 8px;
+
+}
+
+.confirm-order-left-div-upper>div p span:first-child {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.confirm-order-left-div h2 {
+    margin-bottom: 15px;
+}
+
+
+
+.confirm-order-left-div-bottom ul {
+    list-style: none;
+}
+
+
+.confirm-order-left-div-bottom ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.confirm-order-left-div-bottom ul li:hover {
+    background-color: rgb(220, 220, 220);
+    border-radius: 5px;
+}
+
+.confirm-order-left-div-bottom ul li div:first-child {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+
+.confirm-order-left-div-bottom ul li img {
+    width: 70px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.confirm-order-right-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.confirm-order-right-div div {
+    width: 80%;
+    text-align: center;
+}
+
+.confirm-order-right-div div hr {
+    width: 200px;
+    margin: 20px auto;
+}
+
+.confirm-order-right-div div>div {
+    text-align: left;
+    margin: auto;
+}
+
+
+.confirm-order-right-div div>div>p {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.confirm-order-right-div div>div>p:last-child {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.confirm-order-right-div div button {
+    height: 40px;
+    width: 100%;
+    background-color: tomato;
+    color: white;
+    border: 0;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 674px) {
+    .confirm-order-left-div {
+        border: 0;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .confirm-order-left-div {
+        padding: 50px 10px;
+        border: 0;
+    }
+
+    .confirm-order-left-div-bottom ul li div:first-child {
+        margin-bottom: 10px;
+    }
+}

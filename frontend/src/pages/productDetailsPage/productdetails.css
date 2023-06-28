@@ -1,0 +1,190 @@
+.product-details {
+    background-color: rgb(223, 223, 223);
+    width: 100%;
+    padding: 70px;
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2,
+h3,
+h4 {
+    font-weight: 500;
+}
+
+.product-details-left {
+    flex: 1;
+    border: 1px solid white;
+    padding: 30px;
+    min-width: 350px;
+}
+
+
+
+
+.CarouselImage {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    margin-left: calc(50% - 125px);
+}
+
+.product-details-right {
+    flex: 1;
+    border: 1px solid white;
+    padding: 30px;
+    min-width: 350px;
+}
+
+.small-paragraph {
+    font-size: 0.8rem;
+    margin-top: 3px;
+}
+
+.product-details-right-upper div {
+    display: flex;
+    align-items: center;
+}
+
+.product-details-right-upper div .number-of-reviews {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.product-details-right-upper div span {
+    margin-left: 3px;
+}
+
+hr {
+    width: 80%;
+    margin: 15px 0;
+    border: 1px solid rgb(190, 188, 188);
+}
+
+.first-hr {
+    margin-top: 4px;
+}
+
+.product-details-btns {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-details-btns span {
+    padding: 5px 8px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.product-details-btns span:nth-child(2) {
+    color: black;
+}
+
+.product-details-btns span:nth-child(odd) {
+    background-color: black;
+}
+
+.plus {
+    margin-right: 15px;
+}
+
+.product-details-right-btns {
+    border: 0;
+    padding: 8px;
+    text-align: center;
+    width: 120px;
+    background-color: tomato;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.product-details-right-status span:first-child {
+    font-size: 14px;
+}
+
+.product-details-right-status span:nth-child(2) {
+    margin-left: 5px;
+    color: rgb(3, 88, 3);
+    font-weight: 500;
+}
+
+.product-details-right-lower button {
+    margin-top: 18px;
+    margin-left: 0;
+}
+
+.submitDialog {
+    display: flex;
+    flex-direction: column;
+}
+
+.submitDialogTextArea {
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    margin: 1vmax 0;
+    outline: none;
+    padding: 1rem;
+    font: 300 1rem "Roboto";
+}
+
+
+.review-heading {
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.reviews{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    margin: auto;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.no-reviews{
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .product-details {
+        padding: 70px 0;
+    }
+
+    .product-details-right {
+        text-align: center;
+
+    }
+
+    .product-details-btns {
+        width: 30%;
+        margin: auto;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .product-details-right-btns {
+        margin-top: 15px;
+    }
+
+    hr {
+        margin: 15px auto;
+    }
+
+    .product-details-right-upper div {
+        justify-content: center;
+    }
+
+        .plus {
+            margin-right: 0;
+        }
+}

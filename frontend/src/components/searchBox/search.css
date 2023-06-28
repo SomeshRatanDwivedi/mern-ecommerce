@@ -1,0 +1,36 @@
+.search-box-parent{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-box-parent input{
+    height: 40px;
+    width: 60%;
+    border: 1px solid rgb(159, 159, 159);
+    border-radius: 5px 0 0 5px;
+    border-right: 0;
+    min-width: 100px;
+    max-width: 700px;
+    padding: 0 5px;
+}
+
+.search-box-parent input:focus{
+    outline: none;
+} 
+
+.search-box-parent button{
+   width: 70px;
+   text-align: center;
+   height: 40px;
+   border: 0;
+   background-color: tomato;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    color: white;
+
+}
+
+.search-box-parent button:hover{
+    background-color: lightgreen;
+    color: black;
+}

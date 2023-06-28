@@ -1,0 +1,29 @@
+.review {
+    border: 2px solid rgb(197, 195, 195);
+    padding: 30px;
+    min-width: 350px;
+    width: 350px;
+    margin-left: 18px;
+    height: 300px;
+
+}
+
+.review div {
+    text-align: center;
+}
+
+.review p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 10px;
+    color: gray;
+}
+
+.review div div {
+    width: 80px;
+    margin: auto;
+}
+
+.review div div span{
+    font-size: 18px !important;
+}

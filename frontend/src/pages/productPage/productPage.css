@@ -1,0 +1,102 @@
+.product-page-parent {
+    padding: 50px;
+    display: relative;
+}
+
+.slider-parent {
+    position: absolute;
+    left: 18px;
+    top: 234px;
+    width: 12%;
+}
+
+.slider-parent h3{
+    margin-bottom: 1px;
+}
+
+.categories{
+    list-style: none;
+    margin-top: 8px;
+    
+}
+
+.categories li{
+    padding: 5px;
+    cursor: pointer;
+    color: rgb(147, 146, 146);
+}
+
+.categories li:hover{
+    color: tomato;
+}
+
+.product-page-parent h1 {
+    width: 200px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+    margin: auto;
+    text-align: center;
+    color: rgb(91, 89, 89);
+
+}
+
+.product-page-parent-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.pagination-box {
+    margin-top: 10px;
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination li {
+    padding: 10px 20px;
+    border: 1px solid rgb(211, 208, 208);
+
+
+}
+
+.pagination li:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+.pagination li:last-child {
+    border-radius: 0 4px 4px 0;
+}
+
+.pagination li:hover {
+    background-color: rgb(203, 202, 202);
+
+}
+
+
+.pagination li a {
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    font-size: 13px;
+
+}
+
+.pagination .active {
+    background-color: tomato;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .slider-parent{
+        position: static;
+        width: 100%;
+        text-align: center;
+    }
+    
+}
